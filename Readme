@@ -1,1 +1,8 @@
 a simple web application using python
+
+xyz
+    app/
+        app.py #Main Python Application File
+    templates/
+        index.html
+    static

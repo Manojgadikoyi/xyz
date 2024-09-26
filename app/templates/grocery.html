@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grocery List</title>
+
+</head>
+<body>
+
+<h1>Student Grocery List</h1>
+
+    <label for="item">Grocery Item:</label>
+    <input type="text" id="item" name="item" required><br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" required min="1"><br><br>
+
+    <label for="category">Category:</label>
+    <select id="category" name="category" required><br><br>
+        <option value="">Select Category</option>
+        <option value="fruits">Fruits</option>
+        <option value="vegetables">Vegetables</option>
+        <option value="dairy">Dairy</option>
+        <option value="grains">Grains</option>
+        <option value="snacks">Snacks</option>
+        <option value="beverages">Beverages</option>
+    </select>
+
+    <button type="submit">Add to Grocery List</button>
+</form>
+
+</body>
+</html>
